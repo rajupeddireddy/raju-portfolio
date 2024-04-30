@@ -7,15 +7,15 @@ import './Navbar.css'
 export default function Navbar() {
   return (
     <div className='nav-container'>
-      <a href='tel:+919493613197' target='_blank'>
+      <a href='tel:+919493613197' target='_blank' rel="noreferrer">
         {/* <CallIcon color='success' fontSize='small'/> */}
         <p>+91 9493613197</p>
       </a>
-      <a href='https://drive.google.com/file/d/1EobQxczchCRWMro-dHqxOanRURopOMG4/view?usp=sharing' target='_blank'>
+      <a href='https://drive.google.com/file/d/1EobQxczchCRWMro-dHqxOanRURopOMG4/view?usp=sharing' target='_blank' rel="noreferrer">
         {/* <ArticleIcon color='primary' fontSize='small'/> */}
         <p>resume</p>
       </a>
-      <a href='mailto:rajupeddireddy9493@gmail.com' targe='_blank'>
+      <a href='mailto:rajupeddireddy9493@gmail.com' targe='_blank' rel="noreferrer">
         {/* <EmailIcon fontSize='small'/> */}
        <p>rajupeddireddy9493@gmail.com</p>
       </a>

@@ -30,7 +30,7 @@ export default function Home() {
                 <h1>Hi There, I'm <span className='name'>Raju</span></h1>
                 <p>iam into <span>Web Develpment</span></p>
             </div>
-                <img src='https://ik.imagekit.io/e5kg8mysj/IMG_6017.jpg?updatedAt=1712942903634' alt='my photo' className='myphoto'/>
+                <img src='https://ik.imagekit.io/e5kg8mysj/IMG_6017.jpg?updatedAt=1712942903634' className='myphoto' alt='myImage'/>
         </div>
          <Skills/>
         
