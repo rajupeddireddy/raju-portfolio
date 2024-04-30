@@ -1,11 +1,14 @@
-import React from 'react'
+import React , {useRef} from 'react'
 import './Home.css'
 
 import Discuss from '../Discuss/Discuss'
 import Footer from '../Footer/Footer'
+import About from '../About/About'
+import Experience from '../Experience/Experience'
+import Education from '../Education/Education'
 
 export default function Home() {
-  //const aboutRef = useRef(null)
+  const aboutRef = useRef(null)
 
   // const scrollDownToAbout = () => {
   //   aboutRef.current.scrollIntoView({behavior:'smooth'})
@@ -45,6 +48,11 @@ export default function Home() {
         <div ref={aboutRef} style={{width:'80%'}}>
           <About />
         </div> */}
+        <Education/>
+        <Experience/>
+        <div ref={aboutRef} style={{width:'80%'}}>
+          <About />
+        </div>
         <Discuss/>
         <Footer scrollToTop={scrollToTop}/>
     </div>
