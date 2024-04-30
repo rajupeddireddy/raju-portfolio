@@ -29,14 +29,7 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ] ,
-    "rules": {
-      "comma-dangle": ["error", "never"], 
-      "no-console": "warn", 
-      "no-unused-vars": "warn", 
-      "react/jsx-uses-react": "off", 
-      "react/react-in-jsx-scope": "off" 
-    }
+    ] 
   },
   "browserslist": {
     "production": [

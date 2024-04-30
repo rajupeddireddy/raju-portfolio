@@ -1,25 +1,25 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import './Home.css'
-import Skills from '../Skills/Skills'
-import Experience from '../Experience/Experience'
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import Education from '../Education/Education';
-import Projects from '../Projects/Projects';
-import { Button , IconButton} from '@mui/material';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+// import Skills from '../Skills/Skills'
+// import Experience from '../Experience/Experience'
+// import LinkedInIcon from '@mui/icons-material/LinkedIn';
+// import GitHubIcon from '@mui/icons-material/GitHub';
+// import Education from '../Education/Education';
+// import Projects from '../Projects/Projects';
+// import { Button , IconButton} from '@mui/material';
+// import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+// import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import Navbar from '../Navbar/Navbar';
-import About from '../About/About';
+// import About from '../About/About';
 import Footer from '../Footer/Footer';
 import Discuss from '../Discuss/Discuss'
 
 export default function Home() {
-  const aboutRef = useRef(null)
+//  const aboutRef = useRef(null)
 
-  const scrollDownToAbout = () => {
-    aboutRef.current.scrollIntoView({behavior:'smooth'})
-  }
+  // const scrollDownToAbout = () => {
+  //   aboutRef.current.scrollIntoView({behavior:'smooth'})
+  // }
 
   const scrollToTop = () => {
     window.scrollTo({top:0, behavior:'smooth'})
@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <div className='home-container'>
         <Navbar/>
-        <hr className='divider'/>
+        {/* <hr className='divider'/>
         <div className='my-intro-card'>
             <div>
                 <h1>Hi There, I'm <span className='name'>Raju</span></h1>
@@ -54,7 +54,7 @@ export default function Home() {
         <Projects/>
         <div ref={aboutRef} style={{width:'80%'}}>
           <About />
-        </div>
+        </div> */}
         <Discuss/>
         <Footer scrollToTop={scrollToTop}/>
     </div>
