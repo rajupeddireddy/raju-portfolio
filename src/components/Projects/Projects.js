@@ -1,7 +1,7 @@
 import React from 'react'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import NearMeSharpIcon from '@mui/icons-material/NearMeSharp';
-import { Tooltip, IconButton } from '@mui/material';
+import { Tooltip, IconButton,  } from '@mui/material';
 import './Projects.css'
 
 export default function Projects() {
