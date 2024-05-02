@@ -1,7 +1,4 @@
-import React from 'react'
-// import CallIcon from '@mui/icons-material/Call';
-// import EmailIcon from '@mui/icons-material/Email';
-// import ArticleIcon from '@mui/icons-material/Article';
+import React from "react"
 import './Navbar.css'
 
 export default function Navbar() {

@@ -3,7 +3,8 @@
     width: 80%;
     text-align: center;
     font-family: "Inter";
-    margin-bottom: 20px ;
+    margin-top: 30px;
+    margin-bottom: 30px ;
 }
 @media (max-width: 768px){
     .e-container{

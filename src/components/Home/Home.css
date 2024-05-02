@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 12px;
+   
 }
 .home-container h1{
     font-size: 60px;
@@ -18,7 +19,11 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    padding-bottom: 30px;
     width: 80%;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+    min-height: 50vh;
 }
 @media (max-width: '768px') {
     .my-intro-card{
@@ -36,17 +41,21 @@
     font-size: 28px;
     margin-top: -30px;
 }
+
+.myphoto{
+    border-radius: 10%;
+    height: 200px;
+}
 @media (max-width:768px) {
     .my-intro-card p{
         font-size: 20px;
         line-height: 38px;
     }
+
     
 }
-.myphoto{
-    border-radius: 10%;
-    height: 200px;
-}
+
+
 .divider{
     border-top: 0.1px solid #bfbfbf;
     width: 90%;

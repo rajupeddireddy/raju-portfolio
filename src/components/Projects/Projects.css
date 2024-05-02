@@ -1,7 +1,12 @@
 .work-container{
-    width: 80%;
+    width: 100%;
     font-family: "Inter";
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: #f9a2a22e;
+    padding-bottom: 30px;
+    padding-top: 25px;
+    border-radius: 5px;
     
 }
 .projects-container{
@@ -27,7 +32,7 @@
     text-align: center;
     margin: 15px;
     border-top-left-radius: 15%;
-
+    background-color: #fff;
 }
 
 .project-card:hover {

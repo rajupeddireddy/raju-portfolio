@@ -1,7 +1,7 @@
 import React from 'react'
-// import GitHubIcon from '@mui/icons-material/GitHub';
-// import NearMeSharpIcon from '@mui/icons-material/NearMeSharp';
-// import { Tooltip, IconButton,  } from '@mui/material';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import NearMeSharpIcon from '@mui/icons-material/NearMeSharp';
+import { Tooltip, IconButton } from '@mui/material';
 import './Projects.css'
 
 export default function Projects() {
@@ -17,7 +17,7 @@ export default function Projects() {
                     JWT Token, Authorization, Authentication </p>
             </div>
             <div className='links-icons'>
-                {/* <Tooltip title='open code'>
+                <Tooltip title='open code'>
                     <IconButton component='a' href='https://github.com/rajupeddireddy/nxt-trenz-ecommerce' target='_blank'>
                         <GitHubIcon fontSize='large' sx={{color:'#000'}} className='git-icon' />
                     </IconButton>
@@ -26,7 +26,7 @@ export default function Projects() {
                     <IconButton>
                     <NearMeSharpIcon fontSize='large' color='primary' className='git-icon'/>
                     </IconButton>
-                </Tooltip> */}
+                </Tooltip>
                 
             </div>
         </div>
@@ -37,11 +37,11 @@ export default function Projects() {
                 <p><span>Technologies used:</span>React JS, Redux, Typescript, Open Weather APi, Material UI, Routing, CSS</p>
             </div>
             <div className='links-icons'>
-                {/* <Tooltip title='open code'>
+                <Tooltip title='open code'>
                         <IconButton  component='a' href='https://github.com/rajupeddireddy/weather-app' target='_blank'>
                             <GitHubIcon fontSize='large' sx={{color:'#000'}} className='git-icon' />
                         </IconButton>
-                </Tooltip> */}
+                </Tooltip>
                 {/* <NearMeSharpIcon fontSize='large' color='primary' className='git-icon'/> */}
             </div>  
         </div>
@@ -54,11 +54,11 @@ export default function Projects() {
             <div className='links-icons'>
                 {/* <GitHubIcon fontSize='large' sx={{color:'#000'}} className='git-icon' /> */}
             
-                {/* <Tooltip title='open site'>
+                <Tooltip title='open site'>
                     <IconButton component='a' href='http://raju1wikipedia.ccbp.tech' target='_blank'>
                     <NearMeSharpIcon fontSize='large' color='primary' className='git-icon'/>
                     </IconButton>
-                </Tooltip> */}
+                </Tooltip>
             </div>
         </div>
        
@@ -69,11 +69,11 @@ export default function Projects() {
                 <p><span>Technologies used:</span>HTML, CSS, JS, Bootstrap </p>
             </div>
             <div className='links-icons'>
-                {/* <Tooltip title='open code'>
+                <Tooltip title='open code'>
                     <IconButton  component='a' href='https://github.com/rajupeddireddy/tasty-kitchen' target='_blank'>
                         <GitHubIcon fontSize='large' sx={{color:'#000'}} className='git-icon' />
                     </IconButton>
-                </Tooltip> */}
+                </Tooltip>
                 
                 {/* <NearMeSharpIcon fontSize='large' color='primary' className='git-icon'/> */}
             </div>
@@ -88,11 +88,11 @@ export default function Projects() {
             <div className='links-icons'>
                 {/* <GitHubIcon fontSize='large' sx={{color:'#000'}} className='git-icon' /> */}
                  
-                {/* <Tooltip title='open site' components='a' href='http://raju1todosapp.ccbp.tech' target='_blank'> 
+                <Tooltip title='open site' components='a' href='http://raju1todosapp.ccbp.tech' target='_blank'> 
                     <IconButton>
                     <NearMeSharpIcon fontSize='large' color='primary' className='git-icon'/>
                 </IconButton>
-                </Tooltip> */}
+                </Tooltip>
             </div>
         </div>
       </div>
