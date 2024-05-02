@@ -19,6 +19,7 @@
     align-items: center;
     flex-wrap: wrap;
     width: 80%;
+    height: 90vh;
 }
 @media (max-width: '768px') {
     .my-intro-card{
