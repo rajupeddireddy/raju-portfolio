@@ -8,7 +8,7 @@ export default function Experience() {
       <h2>Experience</h2>
       <div  className='companies-contanier'>
         <div className='ex-1'>
-          <img src='https://media.licdn.com/dms/image/C510BAQF4FdaNM1rtRQ/company-logo_100_100/0/1630616078161/unifo_solutions_private_limited_logo?e=1721260800&v=beta&t=Kr9eQ_kuRSfFOZf7zgkLtiscOpR6J4w8YknuJTA9O5w' alt='unifo'/>
+          <img src='https://media.licdn.com/dms/image/v2/C510BAQF4FdaNM1rtRQ/company-logo_100_100/company-logo_100_100/0/1630616078161/unifo_solutions_private_limited_logo?e=1733961600&v=beta&t=FwrPB1H5I7SMMZl1wuvSq_fV_kTGsY80KP4qVG_Zl5E' alt='unifo'/>
           <div className='designation'>
             <h3 >SDE 1</h3>
             <p>Unifo Solutions Pvt.Ltd</p>
@@ -17,7 +17,7 @@ export default function Experience() {
           </div>
         </div>
         <div className='ex-1'>
-        <img src='https://media.licdn.com/dms/image/C560BAQGRiRjglutASA/company-logo_100_100/0/1630659149151?e=1721260800&v=beta&t=oyuawEax5Uqs-3BssMSHpnjbMNFlhvRkUQypKhe_W0o' alt='sgrs'/>
+        <img src='https://media.licdn.com/dms/image/v2/C560BAQGRiRjglutASA/company-logo_100_100/company-logo_100_100/0/1630659149151?e=1733961600&v=beta&t=0AcwycSwp426LOqFvfdnHLFwKv8fsJlyTA-v_bS6hXk' alt='sgrs'/>
           <div className='designation'>
             <h3 >Frontend Engineer Intern</h3>
             <p>SGRS Acadamic Pvt.Ltd</p>

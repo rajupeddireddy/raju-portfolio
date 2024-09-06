@@ -10,24 +10,29 @@ export default function Skills() {
       <h2 className='s-heading'>Skills</h2>
       <div className='btn-container'>
         <button type='button'  class="btn btn-primary">React</button>
-        <button >Redux</button>
+         <button >Python</button>
         <button >Javascript</button>
-        <button >Typescript</button>
-        <button >Python</button>
         <button >HTML</button>
         <button >CSS</button>
+        <button >Redux</button>
         <button >Material Ui</button>
-        <button >React Storybook</button>
-        <button >Gatsby</button>
         <button >Bootstrap</button>
+        <button >React Storybook</button>
+        <button >Responsive Design</button>
+        <br/>
+        {/* <button >Typescript</button> */}
+      
         <button >SQLite</button>
         <button >Node js</button>
-        <button >Express</button>
+        <button >Express js</button>
         <button >Axios</button>
-        <button >Git</button>
+        <br/>
+         <button >Git</button>
         <button >VS Code</button>
+        <br/>
         <button >Wix</button>
-        <button >Responsive Design</button>
+        <button >Gatsby</button>
+        
       </div>
     </div>
   )

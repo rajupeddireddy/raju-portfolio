@@ -11,7 +11,7 @@ export default function Footer(props) {
             <NavigationOutlinedIcon fontSize='large' sx={{color:'#f58d42'}}/>
         </IconButton>
         <div className="copyright">
-            <p>&copy; All rights reserved - <span>Raju Peddireddy</span> | Privacy Policy | rajupeddireddy9493@gmail.com |</p>
+            <p>&copy;All rights reserved - <span>Raju Peddireddy</span> | Email: rajupeddireddy9493@gmail.com</p>
         </div>
     </div>
   )

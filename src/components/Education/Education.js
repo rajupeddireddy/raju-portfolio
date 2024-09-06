@@ -7,7 +7,7 @@ export default function Education() {
     <h2>Education</h2>
     <div  className='college-contanier'>
     <div className='edu-1'>
-        <img src='https://media.licdn.com/dms/image/C560BAQFzaJNs-JSe4w/company-logo_100_100/0/1648218852378?e=1721260800&v=beta&t=pUIKDGcvr-CtKHOsizr-rw1CC64wyTPCIY57DVr7ZfU' alt='rgukt'/>
+        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFDKcWIhUtBGaaNIRal9FJi-BTV_4q5MowMw&s' alt='NxtWave'/>
         <div className='designation'>
           <h3 >NxtWave</h3>
           <p>MERN stack web Develpment</p>
@@ -15,7 +15,7 @@ export default function Education() {
         </div>
       </div>
       <div className='edu-1'>
-        <img src='https://media.licdn.com/dms/image/C510BAQFuWmtdDvop7g/company-logo_100_100/0/1630563971143/rajiv_gandhi_university_of_knowledge_technologies_basar_logo?e=1721260800&v=beta&t=jbBJDWgjZ4KEYm8ponGrwbp2Ys2Udm1_t_kho_WaCtc' alt='rgukt'/>
+        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-R0ou1y74MAIUcxYi9FnKwSrOcOTN4grxw&s' alt='rgukt'/>
         <div className='designation'>
           <h3 >Rajiv Gandhi University of Knowledge Technologies, Nuzvid</h3>
           <p>B-TECH</p>
@@ -23,7 +23,7 @@ export default function Education() {
         </div>
       </div>
       <div className='edu-1'>
-        <img src='https://media.licdn.com/dms/image/C510BAQFuWmtdDvop7g/company-logo_100_100/0/1630563971143/rajiv_gandhi_university_of_knowledge_technologies_basar_logo?e=1721260800&v=beta&t=jbBJDWgjZ4KEYm8ponGrwbp2Ys2Udm1_t_kho_WaCtc' alt='rgukt' />
+        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-R0ou1y74MAIUcxYi9FnKwSrOcOTN4grxw&s' alt='rgukt' />
         <div className='designation'>
           <h3 >Rajiv Gandhi University of Knowledge Technologies, Nuzvid</h3>
           <p>Intermediate</p>
