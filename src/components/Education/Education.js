@@ -6,14 +6,14 @@ export default function Education() {
     <div className='edu-container'>
     <h2>Education</h2>
     <div  className='college-contanier'>
-    <div className='edu-1'>
+    {/* <div className='edu-1'>
         <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFDKcWIhUtBGaaNIRal9FJi-BTV_4q5MowMw&s' alt='NxtWave'/>
         <div className='designation'>
           <h3 >NxtWave</h3>
           <p>MERN stack web Develpment</p>
           <p>Jun 2022- Jan2023</p>
         </div>
-      </div>
+      </div> */}
       <div className='edu-1'>
         <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-R0ou1y74MAIUcxYi9FnKwSrOcOTN4grxw&s' alt='rgukt'/>
         <div className='designation'>

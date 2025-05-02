@@ -9,8 +9,9 @@ export default function Skills() {
     <div className='skill-container'>
       <h2 className='s-heading'>Skills</h2>
       <div className='btn-container'>
-        <button type='button'  class="btn btn-primary">React</button>
-         <button >Python</button>
+        <button type='button'  class="btn btn-primary">React Js</button>
+        <button type='button'  class="btn btn-primary">React Native</button>
+        <button >Python</button>
         <button >Javascript</button>
         <button >HTML</button>
         <button >CSS</button>
@@ -30,9 +31,12 @@ export default function Skills() {
          <button >Git</button>
         <button >VS Code</button>
         <br/>
-        <button >Wix</button>
+        {/* <button >Wix</button> */}
         <button >Gatsby</button>
-        
+        <button >Mongo DB</button>
+        <button >My Sql</button>
+        <button >Nest Js</button>
+        <button >Swagger</button>
       </div>
     </div>
   )
