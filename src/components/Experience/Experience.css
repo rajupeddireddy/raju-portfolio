@@ -5,10 +5,12 @@
     font-family: "Inter";
     margin-top: 30px;
     margin-bottom: 30px ;
+    padding-top: 20px;
 }
 @media (max-width: 768px){
     .e-container{
         width: 90%;
+        padding-top: 20px;
     }
 }
 .companies-contanier{
@@ -25,8 +27,6 @@
     padding: 0px 16px 4px 16px;
     box-shadow: 3px 2px 4px 2px #bfbfbf;
     margin-bottom: 16px;
-   
-    
 }
 .ex-1 img{
     width: 150px;
@@ -35,6 +35,28 @@
 .designation{
     margin-left: 20px;
     text-align: start;
+}
+
+@media (max-width: 768px) {
+    .ex-1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ex-1 img {
+        width: 120px;
+        margin: 0 auto 12px;
+    }
+
+    .designation {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .designation p {
+        text-align: left;
+    }
 }
 .designation h3{
     margin-bottom: 0;

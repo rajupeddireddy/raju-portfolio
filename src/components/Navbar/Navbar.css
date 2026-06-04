@@ -10,13 +10,28 @@
     align-items: center;
     text-decoration: none;
     color: #000;
-    
 }
-.nav-container a :hover{
+.nav-container a:hover{
     text-decoration: underline;
-    
 }
 .nav-container p{
     font-size: 14px;
     margin-left: 5px;
+}
+
+.contact-icon{
+    width: 22px;
+    height: 22px;
+    margin-left: 6px;
+}
+.phone-image{
+    width: 100px;
+    height: 28px;
+    margin-left: 6px;
+}
+
+.email-image{
+    width: 180px;
+    height: 20px;
+    margin-left: 6px;
 }

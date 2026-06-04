@@ -1,7 +1,11 @@
 import React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import NearMeSharpIcon from "@mui/icons-material/NearMeSharp";
+import AndroidIcon from "@mui/icons-material/Android";
 import { Tooltip, IconButton } from "@mui/material";
+import moneymonkLogo from "../../assets/images/moneymonk-logo.png";
+import wikipediaLogo from "../../assets/images/wikipedia-logo.svg";
+import weatherLogo from "../../assets/images/weather-logo.svg";
 import "./Projects.css";
 
 export default function Projects() {
@@ -9,6 +13,54 @@ export default function Projects() {
     <div className="work-container">
       <h2>Projects</h2>
       <div className="projects-container">
+        <div className="project-card">
+          <img
+            src={moneymonkLogo}
+            alt="moneymonk"
+            className="website-logo"
+          />
+          <div>
+            <h4>MoneyMonk Personal Loan App</h4>
+            <p>
+              <span>Technologies used:</span> React Native, NestJS, Swagger,
+              MongoDB, MySQL, Material UI, Axios, AWS
+            </p>
+            <p>
+              Built and maintained the MoneyMonk fintech mobile app with a clean
+              UI, performance optimizations, and secure API integrations.
+            </p>
+          </div>
+          <div className="links-icons">
+            <Tooltip title="Open landing page">
+              <IconButton
+                component="a"
+                href="https://moneymonkapp.in/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <NearMeSharpIcon
+                  fontSize="large"
+                  color="primary"
+                  className="git-icon"
+                />
+              </IconButton>
+            </Tooltip>
+            <Tooltip title="Open Google Play listing">
+              <IconButton
+                component="a"
+                href="https://play.google.com/store/search?q=moneymonk&c=apps"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <AndroidIcon
+                  fontSize="large"
+                  color="success"
+                  className="git-icon"
+                />
+              </IconButton>
+            </Tooltip>
+          </div>
+        </div>
         <div className="project-card">
           <img
             src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
@@ -98,8 +150,8 @@ export default function Projects() {
         </div>
         <div className="project-card">
           <img
-            src="https://nkb-backend-otg-media-static.s3.ap-south-1.amazonaws.com/ccbp-dynamic-webapps/wiki-logo-img.png"
-            alt="nxttrendz"
+            src={wikipediaLogo}
+            alt="wikipedia"
             className="website-logo"
           />
           <div>
@@ -191,8 +243,8 @@ export default function Projects() {
 
         <div className="project-card">
           <img
-            src="https://ik.imagekit.io/e5kg8mysj/20945178.jpg?updatedAt=1712818185374"
-            alt="nxttrendz"
+            src={weatherLogo}
+            alt="weather-app"
             className="website-logo"
           />
           <div>
