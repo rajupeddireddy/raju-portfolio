@@ -2,8 +2,14 @@
     text-align: center;
     font-family: 'Inter';
     font-size: 14px;
-    
 }
 .copyright span{
     font-weight: 600;
+}
+
+.footer-email-icon{
+    width: 180px;
+    height: 20px;
+    vertical-align: middle;
+    margin: 0 5px;
 }

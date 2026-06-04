@@ -23,12 +23,12 @@ export default function Home() {
 
   return (
     <div className='home-container'>
-        {/* <Navbar/>
-        <hr className='divider'/> */}
+        <Navbar/>
+        <hr className='divider'/>
         <div className='my-intro-card'>
             <div>
                 <h1>Hi There, I'm <span className='name'>Raju</span></h1>
-                <p>iam into <span>Web Develpment</span></p>
+                <p>Building modern web & mobile experiences with <span>React</span> and <span>React Native</span>.</p>
                 <div className='icons-card'>
                   <a href='https://www.linkedin.com/in/raju-peddireddi/' target='_blank'  rel="noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg"  width='36' height='36' fill="#0077B5" class="bi bi-linkedin" viewBox="0 0 16 16" >
